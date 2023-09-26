@@ -1,0 +1,29 @@
+//一、创建一个能够计算三角形面积的函数
+function tri_square(length=5,height=10){
+   let square=0.5*length*height;
+    return square;
+}
+//二、创建一个在控制台打印给定两个数值之间所有素数的函数
+function printPrimeNumbers(mix = 5, max = 200) {
+    for (var number = mix; number <= max; number++) {
+      if (isPrime(number)) {
+        console.log(number);
+      }
+    }
+  }
+  
+  function isPrime(number) {
+    if (number < 2) {
+      return false;
+    }
+    
+    for (var i = 2; i <= Math.sqrt(number); i++) {
+      if (number % i === 0) {
+        return false;
+      }
+    }
+    
+    return true;
+  }
+console.log("在默认范围内的素数为：");
+printPrimeNumbers();

@@ -1,0 +1,14 @@
+let nums=[];
+for (let i=1;i<=20;i++){
+    nums.push(i);
+}
+for (let j of nums){
+    if (j%3==0){
+        console.log(j);
+    }
+}
+
+//更快一些的方法
+for (let q=3;q<=20;q+=3){
+    console.log(q);
+}

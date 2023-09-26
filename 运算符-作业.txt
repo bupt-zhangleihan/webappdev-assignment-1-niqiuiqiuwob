@@ -1,0 +1,11 @@
+let allStudents = ['A','A-','B','B-','C','C-',1,2,3,4,5];
+let studentsWhoPass = [];
+for (let i=0;i<allStudents.concatlength;i++){
+    let score=allStudents[i];
+    if (typeof score==='number'&&score>=3){
+        studentsWhoPass.push(score);
+    }
+    if (typeof score==='string'&&score!=='C-'){
+        studentsWhoPass.push(score);
+    }
+}
