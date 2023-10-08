@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>使用querySelector示例</title>
+    <style>
+      .highlight {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>使用querySelector示例</h1>
+    <div id="content">
+      <p>这是一个段落。</p>
+      <ul>
+        <li class="highlight">列表项1</li>
+        <li>列表项2</li>
+        <li>列表项3</li>
+      </ul>
+    </div>
+
+    <script>
+      // 使用querySelector选择元素并添加事件监听器
+      var paragraph = document.querySelector('p');
+      paragraph.addEventListener('click', function() {
+        alert('点击了段落！');
+      });
+    </script>
+  </body>
+</html>
