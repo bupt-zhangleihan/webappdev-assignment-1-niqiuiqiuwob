@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>使用addEventListener示例</title>
+    <style>
+      .highlight {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>使用addEventListener示例</h1>
+    <button id="myButton">点击我</button>
+
+    <script>
+      // 使用addEventListener添加点击事件监听器
+      var button = document.getElementById('myButton');
+      button.addEventListener('click', function() {
+        alert('按钮被点击了！');
+      });
+    </script>
+  </body>
+</html>
