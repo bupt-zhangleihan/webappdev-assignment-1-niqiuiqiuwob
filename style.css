@@ -1,0 +1,13 @@
+.highlight{
+    background-color: yellow;
+}
+
+.error{
+    background-color: lightcoral;
+    border: red;
+}
+
+h1{
+    color: bisque;
+    text-align: center;
+}
